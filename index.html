@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title> 💻 Speed Typer 💻</title>
+  </head>
+  <body>
+    
+    <div class="container">
+      <div id="settings" class="settings">
+        <form id="settings-form">
+          <div>
+            <label for="niveau">Difficultés</label>
+            <select id="niveau">
+              <option value="easy">Niveau facile</option>
+              <option value="moyen">Niveau moyen</option>
+              <option value="difficile">Niveau difficile</option>
+            </select>
+          </div>
+        </form>
+      </div>
+      
+      <h2>💻 Speed Typer 💻</h2>
+         <h4> Tapez le mot suivant :</h4>
+
+      <h1 id="mot"></h1>
+
+      <input  type="text" id="text" placeholder="Tapez le mot ici "  />
+
+      <p class="time"> Temps restant : <span id="timeLeft">16s</span></p>
+
+      <p class="score">Score: <span id="score">0</span></p>
+
+      <div id="finj" class="fin"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
